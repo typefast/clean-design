@@ -1,0 +1,164 @@
+body {
+  font-family: sans-serif; }
+
+.wrapper {
+  margin: 0 auto;
+  text-align: center; }
+
+h1 {
+  font-size: 2em;
+  margin: 2em 0; }
+
+h2 {
+  font-size: 1.8em; }
+
+p {
+  font-size: .9em;
+  padding: 1em; }
+
+.button {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  background: transparent;
+  padding: 0.7em 1em;
+  margin: 1em;
+  border: 2px solid #fff;
+  text-decoration: none;
+  color: #fff;
+  font-size: .9em; }
+
+header {
+  padding: 1em 0 50% 0;
+  background: url("../images/skyline.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-hegiht: 800px;
+  width: 100%;
+  /*Nav end*/ }
+  header nav h1 {
+    margin: 0;
+    margin-left: 3em;
+    color: #292929;
+    color: #111;
+    display: inline-block;
+    float: left; }
+  header nav ul {
+    display: inline-block;
+    float: right;
+    margin-right: 3em; }
+    header nav ul li {
+      display: inline-block; }
+      header nav ul li a {
+        text-decoration: none;
+        display: block;
+        color: #555;
+        padding: 1em; }
+        header nav ul li a:hover {
+          color: #5fb3ce; }
+  header h1 {
+    color: #fff;
+    font-family: Playball;
+    clear: both;
+    margin-top: 8em; }
+  header h2 {
+    color: #fff;
+    letter-spacing: 4.5px; }
+
+.purchase {
+  background: #50AADC;
+  padding-bottom: 6em;
+  padding-top: 6em; }
+  .purchase h2 {
+    color: #fff;
+    font-size: 1.4em;
+    display: inline-block;
+    padding: 1em; }
+  .purchase a:hover {
+    background: #fff;
+    color: #50AADC; }
+
+.plan {
+  padding: 1em;
+  background: #F4F4F4;
+  color: #555; }
+  .plan h2 {
+    font-family: Open Sans;
+    padding: 1em; }
+  .plan .planBox {
+    display: block;
+    margin-top: 2em; }
+    .plan .planBox .box {
+      display: inline-block;
+      padding: 2.25em; }
+      .plan .planBox .box .boxTitle {
+        font-weight: bold; }
+      .plan .planBox .box .price {
+        color: #50AADC;
+        font-size: 2em; }
+      .plan .planBox .box a {
+        background: #50AADC;
+        color: #fff;
+        border: 2px solid #50AADC;
+        display: inline-block;
+        margin-bottom: 2em; }
+        .plan .planBox .box a:hover {
+          color: #50AADC;
+          background: #fff; }
+      .plan .planBox .box span {
+        color: #111;
+        font-weight: bold; }
+    .plan .planBox #white {
+      background: #fff; }
+
+.numbers {
+  padding: 4em;
+  background-color: #50AADC;
+  color: #fff; }
+  .numbers div {
+    display: inline-block;
+    padding: 1em; }
+    .numbers div p {
+      font-size: .8em;
+      margin-top: 2em; }
+
+.statistics {
+  padding: 8em;
+  background: linear-gradient(rgba(30, 30, 30, 0.95), rgba(30, 30, 30, 0.35)), url("../images/type.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+  .statistics h2 {
+    color: #fff;
+    letter-spacing: 1.3px; }
+  .statistics p {
+    color: #888888;
+    line-height: 1.5; }
+
+.contact div {
+  padding: 2em; }
+  .contact div:nth-child(1) {
+    background-color: #F4F4F4; }
+  .contact div h2 {
+    font-family: Open Sans;
+    color: #555;
+    padding: 2em; }
+  .contact div input, .contact div textarea {
+    margin-top: 3em;
+    padding: .5em 1em;
+    width: 50%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #444; }
+  .contact div textarea {
+    min-height: 5em;
+    margin-bottom: 1em; }
+
+footer {
+  padding: 6em;
+  background: #111;
+  color: #222;
+  font-family: Open Sans; }
+
+/*# sourceMappingURL=styles.css.map */
